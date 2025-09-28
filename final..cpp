@@ -48,11 +48,10 @@ int main() {
         if (count[i] > count[maxIndex]) maxIndex = i;
     }
 
-    out << "Кількість символів: " << charCount << endl;
-    out << "Кількість слів: " << totalWords << endl;
-    out << "Кількість речень: " << sentenceCount << endl;
-    out << "Найчастіше слово: " << words[maxIndex] 
-        << " " << count[maxIndex] << " разів";
+    out << "Кількість символів: " << charCount;
+    out << "Кількість слів: " << totalWords;
+    out << "Кількість речень: " << sentenceCount;
+    out << "Найчастіше слово: " << words[maxIndex]<< " " << count[maxIndex] << " разів";
 
     cout << "все";
     in.close();
